@@ -6,11 +6,7 @@ def index(request):
 
 def about(request):
     return render(request,"shop/about.html")
-<<<<<<< HEAD
-=======
-def about(request):
-    return HttpResponse("About")
->>>>>>> aa03f9fd6ab6b719ea10fd1cdf9305ff623fe61b
+
 def contact(request):
     return HttpResponse("contact")
 def search(request):
